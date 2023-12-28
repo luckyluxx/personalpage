@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::selection{
+    @apply bg-stone-600 text-zinc-200
+  }
+  body{
+    @apply font-sans_Customs
+  }
+}
+@layer components {
+  .border_b_Default{
+    @apply border-dotted border-b-zinc-300 border-b-2
+  }
+  .border_x_Default{
+    @apply border-dotted border-l-zinc-300 border-x-2
+  }
+  .border_as_divide{
+    @apply border-opacity-25 border-dotted border-zinc-200
+  }
+  .divide_customs{
+    @apply divide-opacity-25 divide-dotted divide-zinc-200
+  }
+}
